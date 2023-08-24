@@ -20,66 +20,57 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 992px){
+    #alturaSection{
+        height:auto;
+    }
+}
+
 html {
     scroll-behavior: smooth;
 }
 
-header {
-    background-color: rgb(0, 0, 0);
-    height: 80px;
-    font-size: 19px;
-    padding: 20px;
-    font-family: cocogothiclight;
-}
 
-.logo {
+.nav-link {
     float: left;
-    color:#fff;
+    color:#fff !important;
     font-weight: bold;
-    font-family: cocobiker;
+    font-family: cocogothiclight;
+    
 }
 
-.logo span{
+.navbar-nav a{
+    padding-left: 25px !important;
+    text-align: right !important;
+}
+
+
+a:hover{
+    color:lightseagreen !important;
+}
+
+.navbar-brand span{
     color:darkgray;
     font-weight: bold;
     font-family: cocogothic;
 }
 
-.barra{
-    float: right;
+@media only screen and (min-width:0) and (max-width:576px){
+.navbar-collapse{
+    text-align: right !important;
+    background-color: black;
+    /*display: flex;*/
+}
 }
 
-.barra ul{
-    list-style: none;
-}
-
-.barra ul li{ 
-    display: inline-block;
-}
-
-.barra a{
-    text-decoration: none;
-    color:grey;
-}
-
-.barra a:hover {
-    color:lightseagreen;
-}
-
-marquee {
+/*marquee {
     font-family: cocogothic;
-}
+}*/
 
 h1 {
     font-family: cocobiker;
 }
 
-main {
-    height: calc(100vh);
-    background-image: url(img/Picsart_23-07-31_03-38-10-721.jpg);
-    background-size: cover;
-
-}
 
 h2 {
     text-align: center;
@@ -87,6 +78,11 @@ h2 {
     background-color: lightseagreen;
     font-family: cocogothic;
     padding: 20px;
+}
+
+.sec{
+    height: 500px;
+    background-image: url(img/background.png);
 }
 
 
@@ -118,6 +114,4 @@ footer i{
     box-shadow: 0 0 5px black;
 }
 
-h3{
-    background-image: url(/img/background.png);
-}
+

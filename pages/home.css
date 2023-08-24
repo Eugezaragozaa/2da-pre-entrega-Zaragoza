@@ -65,8 +65,4 @@ h1{
     font-family: cocobiker;
 }
 
-main{
-    height: calc(100vh - 80px);
-    background-image: url(img/Picsart_23-07-31_03-38-10-721.jpg);
-    background-size: cover;
-}
+
