@@ -55,6 +55,41 @@ a:hover{
     font-family: cocogothic;
 }
 
+.car{
+width: 100%;
+}
+
+.carousel-inner img {
+    width: 90%;
+    height: cover;
+}
+
+/*.casousel-item{
+    max-width: 50;
+} */
+
+.carousel-indicators button{
+    height: 20px;
+    width: 20px;
+}
+
+.circular-button {
+    width: 100px; 
+    height: 100px; 
+    background-color: white; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+    margin: 10px; 
+}
+
+.circular-button img {
+    width: 80%; 
+    height: auto; 
+}
+
 @media only screen and (min-width:0) and (max-width:576px){
 .navbar-collapse{
     text-align: right !important;
