@@ -30,29 +30,52 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('img/background.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    height: 80px;
+    background-image: linear-gradient( to left ,rgba(32, 178, 171, 0.572) , rgba(238, 130, 238, 0.596));
+    border: 3px solid black;
+    z-index: 1000;
+}
 
 .nav-link {
     float: left;
     color:#fff !important;
     font-weight: bold;
     font-family: cocogothiclight;
-    
+
 }
 
 .navbar-nav a{
-    padding-left: 25px !important;
+    padding-left: 5px !important;
     text-align: right !important;
+    font-size: 20px;
 }
 
+.navbar img{
+    height: 150px;
+    left: 0;
+}
 
 a:hover{
     color:lightseagreen !important;
 }
 
 .navbar-brand span{
-    color:darkgray;
+    color:rgb(0, 0, 0);
     font-weight: bold;
     font-family: cocogothic;
+    margin-left: 5px;
+    font-weight: bold;
+    margin-left: 0px;
 }
 
 .car{
@@ -88,18 +111,18 @@ h1 {
     font-family: cocobiker;
 }
 
-
 h2 {
     text-align: center;
     text-transform: uppercase;
-    background-color: lightseagreen;
+    background-image: linear-gradient( to left ,rgba(32, 178, 171, 0.572) , rgba(238, 130, 238, 0.596));
     font-family: cocogothic;
     padding: 20px;
+    border: 2px black solid;
 }
 
 .sec{
     height: 500px;
-    background-image: url(img/background.png);
+    background-size: cover;
 }
 
 .sec1{
@@ -114,7 +137,6 @@ h2 {
 .circular-button {
     width: 150px; 
     height: 150px; 
-    background-color: white; 
     border-radius: 50%; 
     display: flex;
     flex-direction: row;
@@ -122,14 +144,18 @@ h2 {
     align-items: center;
     cursor: pointer; 
     margin: 10px; 
-    border: 2px solid black;
+    transform: rotateY(0deg);
+    transition: 5s;
 }
 
+.circular-button:hover{
+    transform: rotateY(360deg);
+}
 .circular-button img {
-    width: 80%; 
-    height: auto; 
+    width: 300px; 
+    height: 300px;
+    object-fit: cover;
 }
-
 
 footer{
     background-color: #000;
