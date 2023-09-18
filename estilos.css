@@ -34,6 +34,7 @@ body {
   background-attachment: fixed;
 }
 
+/*NAVBAR INICIO*/
 .navbar {
   height: 80px;
   background-image: linear-gradient(to left, rgba(32, 178, 171, 0.572), rgba(238, 130, 238, 0.596));
@@ -72,6 +73,8 @@ a:hover {
   margin-left: 0px;
 }
 
+/*NAVBAR FIN*/
+/*CARROUSEL INICIO*/
 .car {
   width: 100%;
 }
@@ -90,9 +93,9 @@ a:hover {
   .navbar-collapse {
     text-align: right !important;
     background-color: black;
-    /*display: flex;*/
   }
 }
+/* CARROUSEL FIN */
 /*marquee {
     font-family: cocogothic;
 }*/
@@ -100,6 +103,7 @@ h1 {
   font-family: cocobiker;
 }
 
+/*INICIAN BOTONES CIRCULARES*/
 h2 {
   text-align: center;
   text-transform: uppercase;
@@ -145,7 +149,71 @@ h2 {
   width: 300px;
   height: 300px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
+}
+
+/*FINALIZAN BOTONES CIRCULARES*/
+/*INICIO DE CARDS*/
+.card {
+  width: 80%;
+  height: 500px;
+  background-image: linear-gradient(to left, rgba(32, 178, 171, 0.572), rgba(238, 130, 238, 0.596));
+  margin-top: -400px;
+  border: 3px solid black;
+  font-family: cocogothic;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+  width: 80%;
+  height: 500px;
+  margin-bottom: -380px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card-card section {
+  width: 80%;
+  height: 200px;
+  background-size: cover;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-img.card-img1 {
+  background-image: url(img/img6.jpeg);
+  width: 100%;
+  height: 300px;
+  background-size: 100% 100%;
+  border-bottom: 3px solid black;
+}
+
+.card-img.card-img2 {
+  background-image: url(img/maderas.png);
+  width: 100%;
+  height: 300px;
+  background-size: 100% 100%;
+  border-bottom: 3px solid black;
+}
+
+.card-img.card-img3 {
+  background-image: url(img/laqueado.jpg);
+  width: 100%;
+  height: 300px;
+  background-size: 100% 100%;
+  border-bottom: 3px solid black;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-desc {
+  text-align: center;
 }
 
 footer {
@@ -174,4 +242,6 @@ footer i {
   line-height: 40px;
   font-size: 30px;
   box-shadow: 0 0 5px black;
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/*# sourceMappingURL=estilos.css.map */
