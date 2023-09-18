@@ -154,68 +154,46 @@ h2 {
 
 /*FINALIZAN BOTONES CIRCULARES*/
 /*INICIO DE CARDS*/
-.card {
-  width: 80%;
-  height: 500px;
-  background-image: linear-gradient(to left, rgba(32, 178, 171, 0.572), rgba(238, 130, 238, 0.596));
-  margin-top: -400px;
-  border: 3px solid black;
-  font-family: cocogothic;
-  display: flex;
-  justify-content: space-between;
-}
-
-.section {
-  width: 80%;
-  height: 500px;
-  margin-bottom: -380px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.card-card section {
-  width: 80%;
-  height: 200px;
-  background-size: cover;
-  margin-bottom: 20px;
-  box-sizing: border-box;
+.shop-container {
+  background-color: aqua;
+  background-image: linear-gradient();
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  opacity: 0;
+  animation: FadeIn 1s ease-in-out forwards;
 }
 
-.card-img.card-img1 {
-  background-image: url(img/img6.jpeg);
-  width: 100%;
-  height: 300px;
-  background-size: 100% 100%;
-  border-bottom: 3px solid black;
-}
-
-.card-img.card-img2 {
-  background-image: url(img/maderas.png);
-  width: 100%;
-  height: 300px;
-  background-size: 100% 100%;
-  border-bottom: 3px solid black;
-}
-
-.card-img.card-img3 {
-  background-image: url(img/laqueado.jpg);
-  width: 100%;
-  height: 300px;
-  background-size: 100% 100%;
-  border-bottom: 3px solid black;
-}
-
-.card-title {
+.shop-container .item {
+  border: 1px solid white;
+  padding: 20px;
+  margin: 10px;
   text-align: center;
+  background-color: grey;
+  box-shadow: 0 2px 4px black;
+  border-radius: 4px;
 }
 
-.card-desc {
-  text-align: center;
+.shop-container .item:hover {
+  transition: 1.1s;
+  transform: scale(0.9);
 }
 
+.shop-container .item img {
+  width: 250px;
+  height: 300px;
+}
+
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 footer {
   background-color: #000;
   color: #fff;
