@@ -160,26 +160,27 @@ h2 {
 /*FINALIZAN BOTONES CIRCULARES*/
 
 /*INICIO DE CARDS*/
-
 .shop-container{
-    background-color: aqua;
-    background-image: linear-gradient();
+    width: 250px;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
     height: auto;
-    opacity: 0;
-    animation: FadeIn 1s ease-in-out forwards;
+    opacity: 1;
+    margin-top: -400px;
+    padding: 0;
+    /*animation: FadeIn 1s ease-in-out forwards;*/
 }
 .shop-container .item{
     border: 1px solid white;
     padding: 20px;
-    margin: 10px;
+    margin: 5px;
     text-align: center;
-    background-color: grey;
+    background-image: linear-gradient(to left, rgba(32, 178, 171, 0.572), rgba(238, 130, 238, 0.596));
     box-shadow: 0 2px 4px black;
     border-radius: 4px;
+    flex-direction: row;
 }
 
 .shop-container .item:hover{
@@ -192,14 +193,14 @@ h2 {
     height: 300px;
 }
 
-@keyframes FadeIn {
+/*@keyframes FadeIn {
     0% {
         opacity: 0;
     }
     100% {
         opacity: 1;
     }
-}
+}*/
 
 footer {
     background-color: #000;

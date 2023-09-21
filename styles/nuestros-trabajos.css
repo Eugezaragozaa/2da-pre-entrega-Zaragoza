@@ -42,6 +42,7 @@ header {
 }
 .barra{
     float: right;
+    background-image: linear-gradient(to left, rgba(32, 178, 171, 0.572), rgba(238, 130, 238, 0.596));
 }
 
 .barra ul{
