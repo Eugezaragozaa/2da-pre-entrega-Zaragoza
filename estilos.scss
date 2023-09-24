@@ -170,6 +170,7 @@ h2 {
     opacity: 1;
     margin-top: -400px;
     padding: 0;
+    text-decoration: none;
     /*animation: FadeIn 1s ease-in-out forwards;*/
 }
 .shop-container .item{
@@ -181,6 +182,7 @@ h2 {
     box-shadow: 0 2px 4px black;
     border-radius: 4px;
     flex-direction: row;
+    text-decoration: none;
 }
 
 .shop-container .item:hover{

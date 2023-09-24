@@ -64,6 +64,7 @@ body {
 
 a:hover {
     color: lightseagreen !important;
+    font-family: CocoGothic;
 }
 
 .navbar-brand span {
@@ -75,9 +76,85 @@ a:hover {
     margin-left: 0px;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+section {
+    margin-top: 100px; 
+}
+
+.mi-formulario {
+    max-width: 300px;
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #a20be388;
+    box-shadow: 0px 0px 10px #00bfff;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #a20be31d; 
+    border: none;
+    border-bottom: 2px solid #010102;
+}
+
+
+
+textarea {
+    height: 150px; 
+}
+
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #0b0a0a; 
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #8400ff; 
+}
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25d366; /* Color de WhatsApp */
+    color: #fff; /* Color de texto */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button i {
+    margin-right: 10px;
+}
+
+.whatsapp-button:hover {
+    background-color: #128c7e; /* Cambio de color al pasar el cursor */
+}
+
+
 @media only screen and (min-width: 0) and (max-width: 576px) {
     .navbar-collapse {
         text-align: right !important;
-        background-color: black;
+        background-color: black !important;
         }
     }

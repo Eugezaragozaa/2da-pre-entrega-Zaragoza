@@ -164,6 +164,7 @@ h2 {
   opacity: 1;
   margin-top: -400px;
   padding: 0;
+  text-decoration: none;
   /*animation: FadeIn 1s ease-in-out forwards;*/
 }
 
@@ -176,6 +177,7 @@ h2 {
   box-shadow: 0 2px 4px black;
   border-radius: 4px;
   flex-direction: row;
+  text-decoration: none;
 }
 
 .shop-container .item:hover {
@@ -222,4 +224,6 @@ footer i {
   line-height: 40px;
   font-size: 30px;
   box-shadow: 0 0 5px black;
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/*# sourceMappingURL=estilos.css.map */
